@@ -1,83 +1,29 @@
-baseURL                   = "https://cc8848.github.io"
-builddrafts                = false
-languageCode               = "zn-Hans"
-canonifyurls               = true
-contentdir                 = "content"
-layoutdir                  = "layouts"
-publishdir                 = "public"
-enableEmoji                = true
-hasCJKLanguage             = true
-summaryLength              = 200
-Paginate                   = 4
+BaseUrl= ""
+LanguageCode= "en-US"
+Title= "37º空间-个人博客"
+paginate = 5
+DisqusShortname = "37º空间-个人博客"
+Copyright = "All rights reserved - 2019"
+canonifyurls = true
 
-theme                      = "AllinOne"
-title                      = "37º空间-个人博客"
-
-pygmentsuseclasses         = true
-
-
-[permalinks]
-  blog                     = "blog/:year-:month/:slug/"
-
-
-[taxonomies]
-  tag                      = "tags"
-  series                   = "series"
-  category                 = "categories"
-
-
-[menu]
-  [[menu.main]]
-    name                   = "Blog"
-    weight                 = -120
-    identifier             = "blog"
-    url                    = "blog/"  
-
-  [[menu.main]]
-    name                   = "Moment"
-    weight                 = -110
-    identifier             = "moment"
-    url                    = "moment/" 
-
-  [[menu.main]]
-    name                   = "About"
-    weight                 = -100
-    identifier             = "about"
-    url                    = "about/"  
-	
-  [[menu.main]]
-    name                   = "Contact"
-    weight                 = -100
-    identifier             = "contact"
-    url                    = "contact/"  
-
- 
+[author]
+  name = "zj"
 
 [params]
-  faviconfile              = "img/zheng.png"               # from static/
-  avatar                   = "img/profile.jpg"             # path to image in static dir e.g img/avatar.png 
-  author                   = "Orianna"
-  description              = ["Be myself.", "Love the wonderful world.", "Do the right things and be a better man."]           # appears in the site header when set to a non-empty string
-  welcome_head             = "Hello, World!"
-  welcome_word             = "~ No Day But Today ~"
-
-  latestpostscount         = 5                             # how many posts to display on the home page
-  bloggroupby              = 'month'
-  dateform                 = "Jan 2, 2006"
-  dateformfull             = "2006-01-02  Monday  15:04:05"
-  noshowreadtime           = false                         # if true, don't show "<x> minutes read" in posts
-
-  # slides
-  slidesDirPath            = "themes/AllinOne/static/img/header-slides"    # path to image in local dir (path for hugo)
-  slidesDirPathURL         = "img/header-slides"    # path to image in static dir (for static pages)
-
-  # highlighting 
-  highlightjs              = true
-
-  # latex
-  katex                    = true
-
-  # links
+  description = "this is my description"
+  cover = "images/user.jpg"
+  author = "zj"
+  authorlocation = ""
+  authorwebsite = ""
+  bio= "my bio"
+  logo = "images/user.png"
+  googleAnalyticsUserID = ""
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = ""
+  githubName = "zj"
+  twitterName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
   email                    = "cc8848@163.com"
   github                   = "//github.com/cc8848"
   linkedin                 = "//linkedin.com/in/you"
@@ -88,7 +34,3 @@ pygmentsuseclasses         = true
   instagram                = "//instagram.com/you"
   include_rss              = true                          # include RSS <link> tag in <head> and show RSS icon
   
-  # analytics
-  googleAnalytics          = "your-google-analytic-id"
-    
-    
